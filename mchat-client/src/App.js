@@ -1,16 +1,19 @@
-import logo from "./logo.svg";
+// App.js
 
 import React, { useState } from 'react';
+
+
 import './App.css';
-import ChatWindow from "./chatwindow/chatwindow";
-import UserList from "./userlist/userlist";
+import ChatWindow from './chatwindow/chatwindow';
+import UserList from './userlist/userlist';
+
 const App = () => {
   const [selectedUser, setSelectedUser] = useState(null);
 
   const users = [
-    { id: 1, name: 'Friend 1' },
-    { id: 2, name: 'Friend 2' },
-    { id: 3, name: 'Friend 3' },
+    { id: 1, name: 'ANKUR' },
+    { id: 2, name: 'AKASH' },
+    { id: 3, name: 'SURAJ' },
     // Add more users as needed
   ];
 
